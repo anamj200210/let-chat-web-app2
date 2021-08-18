@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/212648.jpg");
+    background-size: cover;
+}
+
+div{
+    background-color: purple;
+    float: none;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: 250px;
+    border-color: rgb(252, 2, 43);
+    border-width: 20px;
+    height: 300px;
+}
+
+#logo{
+    height: 70px;
+}
+
+h2{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+h3{
+    font-size: 20px;
+    color: plum;
+    font-family: 'Palette Mosaic', cursive;
+}

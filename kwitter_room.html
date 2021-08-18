@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Kwitter Room</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+    <script src="kwitter_room.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button> <br>
+        <center>
+
+            <h1 class="header" style="color: aliceblue; font-family: 'Style Script', cursive;">Let's Chat!!
+                <sup> <img height="100px" src="giphy.gif" id="logo"> </sup>
+            </h1>
+            <h3 class="color_white" id="update_username"></h3>
+            <div class="form-group input_div_room_page">
+                <label style="font-family: Georgia, 'Times New Roman', Times, serif;">Add room:</label>
+                <br>
+                <input type="text" placeholder="Room Name" class="form-control" id="room_name">
+            </div>
+            <button onclick="add_room" id="addRoom" class="btn btn-success">Add Room!</button>
+            <h3 style="color:tomato;">#TRENDINGROOMS</h3>
+
+            <div id="output"></div>
+
+
+        </center>
+    </div>
+</body>
+
+</html>
